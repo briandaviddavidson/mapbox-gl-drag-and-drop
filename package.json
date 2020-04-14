@@ -1,0 +1,30 @@
+{
+  "name": "mapbox-gl-drag-and-drop",
+  "version": "0.1.0",
+  "description": "This package allows for drag and drop functionality to be added to Mapbox basemaps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briandaviddavidson/mapbox-gl-drag-and-drop.git"
+  },
+  "keywords": [
+    "mapbox",
+    "drag-and-drop",
+    "mapbox-gl"
+  ],
+  "author": "Brian Davidson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briandaviddavidson/mapbox-gl-drag-and-drop/issues"
+  },
+  "homepage": "https://github.com/briandaviddavidson/mapbox-gl-drag-and-drop#readme",
+  "dependencies": {
+    "@mapbox/togeojson": "^0.16.0",
+    "csv2geojson": "^5.1.1",
+    "documentation": "^12.3.0",
+    "shapefile": "^0.6.6"
+  }
+}
