@@ -7,8 +7,7 @@ const shp2geojson = require('shapefile');
  * A simple drag and drop component built to be used with Mapbox basemaps. The `type` of data (point, line, & polygon) is auto determined
  * @class MapboxGlDragAndDrop
  * @param {Object} options
- * @param {String} options.mapId=map
- * @param {String} [options.containerId]=mapbox-drag-and-drop Use to set a custom API origin.
+ * @param {String} [options.containerId]='#SampleId'
  * @param {Boolean} [options.zoomTo=true]
  * @param {Object} [options.data]
  * @param {Boolean} [options.data.geojson=true]
@@ -30,9 +29,9 @@ function MapboxGlDragAndDrop(options) {
   this.options = extend({}, this.options, options);
 }
 
+// Used as default settings
 MapboxGlDragAndDrop.prototype = {
-  containerId: "mapbox-drag-and-drop",
-  mapId: "map",
+  containerId: "map",
   zoomTo: true,
   data: {
     geojson: true,
